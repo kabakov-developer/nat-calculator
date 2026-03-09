@@ -119,9 +119,9 @@ function handleChange(event) {
             {submitted && (
                 <div className="result">
                 Результат:
-                <span className={result > -0.045 ? 'result-red' : 'result-green'}> {result}</span>
-                <p className="information">{'Уэер > -0,045 - группа высокого риска развития послеродового эндомтерита.'}<br />
-                    {'Уэер < -0,045 - группа низкого риска развития послеродового эндомтерита.'}
+                <span className={result > -0.035 ? 'result-red' : 'result-green'}> {result}</span>
+                <p className="information">{'Уэер > -0,035 - группа высокого риска развития послеродового эндомтерита.'}<br />
+                    {'Уэер < -0,035 - группа низкого риска развития послеродового эндомтерита.'}
                 </p>
             </div>
             )}
